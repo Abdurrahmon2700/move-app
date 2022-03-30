@@ -1,0 +1,109 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f4f4f4;
+}
+
+
+.navbar {
+  background-color: red;
+}
+.logo__img {
+  width: 50px;
+  height: 50px;
+  margin-right: 24px;
+}
+
+.logo__site {
+  width: 112px;
+  height: 28px;
+}
+
+.input__part{
+  text-align: center;
+  position: relative;
+}
+
+.site__input {
+  height: 40px;
+  border: 2px solid #D1D5DB;
+  border-radius: 6px;
+  background-color: transparent;
+  outline: none; 
+  color: #fff;
+  width: 500px;
+  padding: 6px 10px;
+}
+
+.xek {
+  display: flex;
+  align-items: center;
+}
+
+.site__input::placeholder {
+  color: #fff;
+}
+
+.sign {
+  font-size: 16px;
+  text-transform: capitalize;
+  margin-right: 27px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.sign:hover {
+  color: #fff;
+}
+
+.likebtn {
+  background-color: transparent;
+  border:none;
+}
+
+.bx-heart {
+  color: red;
+  font-size: 24px;
+}
+
+.bx-search-alt-2 {
+  position: absolute;
+  font-size: 24px;
+  right: 10px;
+  bottom: 6px;
+  color: #fff;
+}
+.box {
+  width: 100%;
+  height: 100vh;
+  overflow:hidden;
+}
+.imag__box {
+  transition: all 0.4s ease;
+
+}
+.image__film {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+.button__container {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  z-index: 50000;
+}
+
+
+.button {
+  font-size: 20px;
+  border: 2px solid red;
+  background-color: ;
+}
